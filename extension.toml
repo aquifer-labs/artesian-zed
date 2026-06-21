@@ -1,0 +1,14 @@
+[package]
+id = "artesian"
+name = "Artesian"
+description = "Memory control for AI agents — the Artesian MCP server as a Zed context server: bounded committed context, a qualify-gate, and hybrid retrieval over your own store."
+version = "0.0.1"
+schema_version = 1
+authors = ["Aquifer Labs"]
+repository = "https://github.com/aquifer-labs/artesian-zed"
+license = "Apache-2.0"
+
+[context_servers.artesian-memory]
+id = "artesian-memory"
+name = "Artesian Memory"
+description = "Recall, commit, and resume agent memory over your project's store"
