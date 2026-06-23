@@ -1,0 +1,5 @@
+# Zed compiles extensions to WebAssembly; pin a channel that carries the WASI target so a clean
+# checkout (or a contributor under a different rustup directory override) builds without manual setup.
+[toolchain]
+channel = "stable"
+targets = ["wasm32-wasip1"]
